@@ -1,0 +1,36 @@
+.login {
+  width: 400px;
+  padding: 1rem;
+  background-color: #cee2ff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+.login h1 {
+  text-align: center;
+}
+.info {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+}
+.info label {
+  flex: 3;
+}
+.info input {
+  flex: 7;
+  padding: 0.5rem;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+}
+.btn {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  margin: 1rem auto 0;
+  display: block;
+}
